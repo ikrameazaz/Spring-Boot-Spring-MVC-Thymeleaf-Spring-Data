@@ -21,7 +21,7 @@ public class PatientsMvcApplication {
 			patientRepository.save(new Patient(null,"ikrame",new Date(),false,92));
 			patientRepository.save(new Patient(null,"imane",new Date(),true,22));
 			patientRepository.save(new Patient(null,"safaa",new Date(),true,33));
-			patientRepository.save(new Patient(null,"zak",new Date(),false,72));
+			patientRepository.save(new Patient(null,"zak",new Date(),true,72));
 
 			patientRepository.findAll()
 					.forEach(p-> {
